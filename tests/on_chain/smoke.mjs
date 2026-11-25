@@ -424,7 +424,9 @@ console.log(`\n[${stamp()}] ---- D: ${K2}'s window, the views, the code, the mon
   if (String(held) !== owedBefore.balance_owed) { await sleep(8000); held = await balance(st.contract); }
   ok("before the withdrawals the contract holds exactly what it owes: every credit, no open bounty", String(held) === owedBefore.balance_owed && owedBefore.bounties_held === "0", `${gen(held)} GEN held, ${gen(owedBefore.balance_owed)} owed`);
 
-  const CREDIT = { anna: GEN + GEN / 2n, ben: GEN, cara: GEN - 2n * BOND + GEN, desk: 2n * BOND + GEN / 2n };
+  // what each holds: its own deposit (a kept bond never leaves credit), plus shares, less forfeits; the desk holds
+// the two forfeited bonds and K2's unpaid half
+const CREDIT = { anna: DEP.anna + GEN + GEN / 2n, ben: DEP.ben + GEN, cara: DEP.cara - 2n * BOND + GEN, desk: 2n * BOND + GEN / 2n };
   for (const who of ["anna", "ben", "cara", "desk"]) {
     const r = await call("withdraw_" + who, who, "withdraw", []);
     ok(`${who.toUpperCase()} withdraws its ${gen(CREDIT[who])} GEN of credit`, done(r) && r.j?.withdrawn === String(CREDIT[who]) && feeOk(r), `${votes(r)}  fee ${gen(r.fee)}`);

@@ -1,0 +1,92 @@
+[19:45:05] DESK     0x3c712BecEA64Ee9b9f1FBCdA28741feA7Fcc203a  DESK, who opens the claims and deploys the contract
+           ANNA     0x9a1303D22E5e4f39c28332Af5A1965Bec19B480F  ANNA, who offers the county roads notice
+           BEN      0x944995DdD8B8Fd832B81c3845f396967eBa8B0cD  BEN, who offers the Valley Courier report
+           CARA     0xae96C7B0E8EA425598D92c79Cd328656741F276c  CARA, who offers the digest, the newsletter, the walkers' log and the rowing club notice
+           STRANGER 0x5e46E06126b77aF1595c816B18E1d7AEd13072bd  STRANGER, who has no part in any claim
+           source rule https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/
+PASS  the network charges fees (Studio v0.123), and quotes a deposit for every transaction  - fee deposit quoted 0.10000000000001036 GEN
+
+[19:45:06] ---- A: deploy, and two claims opened
+      [19:45:48] DESK deploy corroborate.py  0x5ce4ab6d29fe13bb05bd11a8b24b8518673e3de0b2133d0806660b81574622b9  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  0x3De963CF5B3F0172a60010279BeAd90441d104E5
+PASS  DESK deploys corroborate.py, with fees: FINALIZED and FINISHED_WITH_RETURN  - 0x5ce4ab6d29fe13bb05bd11a8b24b8518673e3de0b2133d0806660b81574622b9  3 agree, 0 disagree, 2 idle  0x3De963CF5B3F0172a60010279BeAd90441d104E5
+      [19:46:28] DESK open_claim(nspection found cracked supports, 3, 200000000000000000, 14400, 5ca6dba8b02456b250d1f1731/pages/) +0.01 GEN  0x8c67cd6f69b124a81e04767ebe8010bc0d370a964c60e9865149edf9ed8bd74f  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000126304750000823
+PASS  DESK opens a claim with 0.01 GEN for three shares: refused, every atto back in the same transaction  - 3 agree, 0 disagree, 2 idle  the bounty, sent with the call, is at most 100000000000000000000 atto and at least 10000000000000000 atto for each of the k shares; this call sent 10000000000000000  fee 0.000126304750000823
+      [19:47:07] DESK open_claim(nspection found cracked supports, 3, 200000000000000000, 14400, 5ca6dba8b02456b250d1f1731/pages/) +3 GEN  0xe5b03b03e739ba3804df2ae7d854c0ace2239a55fd5903a5bc9161f86792b567  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000078636000000823
+PASS  DESK opens K1: k 3, bond 0.2 GEN, bounty 3 GEN in three shares of 1 GEN  - 3 agree, 0 disagree, 2 idle  {"ok": true, "claim": "K1", "k": 3, "bond": "200000000000000000", "bounty": "3000000000000000000", "share": "1000000000000000000", "deadline": 1795650391, "sour
+      [19:47:49] DESK open_claim(arch 2026 found cracked supports, 2, 200000000000000000, 2400, 5ca6dba8b02456b250d1f1731/pages/) +1 GEN  0x92bc562fb4b487ac6d176fbfb4ee64c3b0ac9b1e6d83aa5ea2569e54fc45032b  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000078635250000823
+PASS  DESK opens K2: k 2, bounty 1 GEN in two shares of 0.5 GEN, a 40-minute window  - 3 agree, 0 disagree, 2 idle  {"ok": true, "claim": "K2", "k": 2, "bond": "200000000000000000", "bounty": "1000000000000000000", "share": "500000000000000000", "deadline": 1795638429, "sourc
+
+[19:47:49] ---- B: credit, the second claim's first source, and three refusals
+      [19:48:27] ANNA deposit() +0.5 GEN  0x8cfe264fb84ca0cee3b4c1720745863849f4d074cc9c5931c5418abfef37e876  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000078630000000823
+PASS  ANNA deposits 0.5 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000078630000000823
+      [19:49:08] BEN deposit() +0.5 GEN  0x50106184615144fdf59d2b0bca5e3550e712e3e103ba4ba34f94abf0ac580386  FINALIZED FINISHED_WITH_RETURN  4 agree, 0 disagree, 1 idle  fee 0.000078630000001058
+PASS  BEN deposits 0.5 GEN of credit  - 4 agree, 0 disagree, 1 idle  fee 0.000078630000001058
+      [19:49:48] CARA deposit() +1 GEN  0x357c2c672bdf5650e197943f8b07f97e8f2b0ff84d4064ffa110595f924dbfad  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000078630500000823
+PASS  CARA deposits 1 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000078630500000823
+      [19:50:35] ANNA submit(K2, 1/pages/county-roads-notice.html)  0x582c0b344b3eeaacca7c6488425ad3388520fa0493f5d9b001348fb65b47f4f7  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000081921500000823
+PASS  ANNA offers the county notice for K2: accepted (S-), a 0.5 GEN share  - 3 agree, 0 disagree, 2 idle  {"source":"S1","mask":"S-","fp":"5b82318b5c39e90f"}
+      [19:51:17] STRANGER submit(K1, 1/pages/county-roads-notice.html)  0x6400bfb554275b5df16fc7ea72f16090dd12f27b671fa6824567e68a8e3bceae  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  STRANGER offers a source for K1 with no credit: refused before anything is fetched  - 3 agree, 0 disagree, 2 idle  [EXPECTED] a source for K1 takes a bond of 200000000000000000 atto of credit and this address holds 0; deposit() first
+      [19:51:58] DESK submit(K1, 1/pages/county-roads-notice.html)  0x66dda5cdb7e6bd417508645b0c8db82933dd0c1722fb88f9550414fe767c0292  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  DESK may not offer a source for its own K1  - 3 agree, 0 disagree, 2 idle  [EXPECTED] the desk of K1 may not offer sources for its own claim
+      [19:52:39] ANNA submit(K1, //news.example/marrow-creek.html)  0x2807345238b63d8166783a11cc95be1a31bf961ea666e39b4257c583aacd02b9  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  ANNA offers a page outside K1's source rule: refused  - 3 agree, 0 disagree, 2 idle  [EXPECTED] the sources of K1 are pages under https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5c
+
+[19:52:39] ---- C: K1, one consensus round per source
+      [19:53:34] ANNA submit(K1, 1/pages/county-roads-notice.html)  0xaa0f7c81f47a78d1721116b9aae01563d327807d894946109f9ccc9efde81989  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000081922500000823
+PASS  ANNA offers the county roads notice, the first source: accepted, 1 GEN share  - 3 agree, 0 disagree, 2 idle  {"source":"S2","mask":"S-","fp":"5b82318b5c39e90f","accepted":1,"contested":0}
+      [19:54:58] BEN submit(K1, 1f1731/pages/valley-courier.html)  0xc7c15588ae10e5d2b47002bc2d77c32e4f78ca4a67662dfe582974efacf07981  FINALIZED FINISHED_WITH_RETURN  3 agree, 2 disagree, 0 idle  fee 0.000082050250000823
+PASS  BEN offers the Valley Courier report, independent of the county notice: accepted, 1 GEN share  - 3 agree, 2 disagree, 0 idle  {"source":"S3","mask":"SI","fp":"775152bb5b9e2939","accepted":2,"contested":0}
+      [19:55:52] CARA submit(K1, 0d1f1731/pages/river-digest.html)  0x0a4ee762d8c08c64b5c2366dafe91d695857d4383563280f48b2927a2bcaf0db  FINALIZED FINISHED_WITH_RETURN  3 agree, 1 disagree, 1 idle  fee 0.000081298750000823
+PASS  CARA offers the River Towns Digest, which names the Courier as its source: derivative, the 0.2 GEN bond to DESK  - 3 agree, 1 disagree, 1 idle  {"source":"S4","mask":"SD","fp":"01ee1b53428bb33d","accepted":2,"contested":0}
+      [19:56:48] CARA submit(K1, 731/pages/parish-newsletter.html)  0x03a9114858e5540e047069c90351013097d57758deac1edbd4916798fcee696b  FINALIZED FINISHED_WITH_RETURN  3 agree, 1 disagree, 1 idle  fee 0.000080925250000823
+PASS  CARA offers the parish newsletter, which says nothing of a closure: not supporting, the bond to DESK  - 3 agree, 1 disagree, 1 idle  {"source":"S5","mask":"NI","fp":"61c2bb99dabd11b7","accepted":2,"contested":0}
+      [19:57:58] CARA submit(K1, f1731/pages/towpath-walkers.html)  0xacfdb1cf71aeda3a6b1d9033d71aad99805a8ab16c7f4f06073897cdea7f33c3  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000080665250000823
+PASS  CARA offers the walkers' log, which says the bridge stayed open: contradicting, on the record, the bond kept  - 3 agree, 0 disagree, 2 idle  {"source":"S6","mask":"CI","fp":"b41ff6de147d8a39","accepted":2,"contested":1}
+      [19:58:46] CARA submit(K1, 1/pages/county-roads-notice.html)  0x2a7f7e437f397c3975366d01861f2a793f3ffa678c5a69c78e90c41286a5e28d  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  CARA offers the county notice for K1 again: refused, a page is read once per claim  - 3 agree, 0 disagree, 2 idle  [EXPECTED] this address was already read for K1 as S2; a page is read once per claim
+      [19:59:28] BEN submit(K1, 50d1f1731/pages/rowing-club.html)  0x65f9168f3a8a7cebf82423e64185e4c675f1718a7468fb657e377451daf91e2f  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  BEN offers a second page for K1: refused, one accepted source per address per claim  - 3 agree, 0 disagree, 2 idle  [EXPECTED] this address already holds the accepted source S3 on K1; one accepted source per address per claim
+      [20:00:11] STRANGER expire(K2)  0xe0c73ab9cae26e1532a7b37c9708faa3aa15c11bbfa10950d7ab8a12654e3c50  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  STRANGER expires K2 before its window ends: refused  - 3 agree, 0 disagree, 2 idle  [EXPECTED] the window of K2 runs until 1795638429, 1658 seconds from now; sources may still be offered
+      [20:01:28] CARA submit(K1, 50d1f1731/pages/rowing-club.html)  0xcbafd2a55884c63810b376c9454b24beec89fbab53895ee6fa967917e6f0bd82  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000081431500000823
+PASS  CARA offers the rowing club notice: accepted (SI), the third independent source, K1 corroborated  - 3 agree, 0 disagree, 2 idle  {"source":"S7","status":"corroborated","accepted":3,"contested":1}
+      [20:02:11] STRANGER submit(K1, 731/pages/parish-newsletter.html)  0x3654f90e990c44053a45696b1c59f7049e3b949d2ab30017589aafeafd6f1247  FINALIZED FINISHED_WITH_ERROR  4 agree, 0 disagree, 1 idle  fee 0.000078628000001058
+PASS  STRANGER offers a source for the corroborated K1: refused  - 4 agree, 0 disagree, 1 idle  [EXPECTED] K1 is corroborated; only an open claim takes sources
+
+[20:02:11] ---- D: K2's window, the views, the code, the money
+      [20:02:12] waiting 1518 s, by the chain clock, for K2's window to end
+      [20:28:15] STRANGER expire(K2)  0x04b6724833f02ce7091aad0c47f8b8f0f6c3aa2eb02b1d0b5fb4a59204c7ce4e  FINALIZED FINISHED_WITH_RETURN  4 agree, 0 disagree, 1 idle  fee 0.000078631000001058
+PASS  STRANGER expires K2 after its window: not corroborated, its unpaid 0.5 GEN to DESK's credit  - 4 agree, 0 disagree, 1 idle  {"ok": true, "claim": "K2", "status": "expired", "accepted": 1, "k": 2, "contested": 0, "returned": "500000000000000000", "desk": "0x3c712becea64ee9b9f1fbcda287
+PASS  claim(K1): corroborated, 3 accepted, contested by 1, 1 derivative, 1 not supporting, nothing left  - {"status":"corroborated","accepted":3,"contested":1,"to_desk":"400000000000000000"}
+PASS  accepted_of(K1): the county notice, the Courier and the rowing club, slots 1 to 3, three different contributors  - [["S2",1,"S-"],["S3",2,"SI"],["S7",3,"SI"]]
+PASS  sources_of(K1, 0, 20): six readings, every outcome on the record  - [["S2","accepted","S-"],["S3","accepted","SI"],["S4","derivative","SD"],["S5","not_supporting","NI"],["S6","contradicting","CI"],["S7","accepted","SI"]]
+PASS  claim(K2): expired with 1 of 2 accepted, 0.5 GEN returned  - {"status":"expired","accepted":1,"returned":"500000000000000000"}
+PASS  stats(): two claims, one corroborated, one expired, seven readings, four accepted, one each derivative, not supporting and contradicting, one refused payment  - {"claims":2,"open":0,"corroborated":1,"expired":1,"sources":7,"accepted":4,"derivative":1,"not_supporting":1,"contradicting":1,"unsettled":0,"copies":0,"refused_payments":1,"bounties_held":"0","credit":"6000000000000000000","deposited":"2000000000000000000","withdrawn":"0","shares":"3500000000000000000","returned":"10000000000000000","balance_owed":"6000000000000000000"}
+PASS  rules(): both questions word for word, the outcome table and the limits  - value,questions,meanings,askings,first_source,reading,mask,outcomes,page,compared,not_asked,once,money,who,sizes,source_rule,limits,untrusted
+PASS  the code deployed at 0x3De963CF5B3F0172a60010279BeAd90441d104E5 is byte for byte contracts/corroborate.py  - 63292 bytes, sha256 0457d1ceac6c90d0bb9fccc21a902d2345a66df012383b460327aa4d54c04cde
+PASS  before the withdrawals the contract holds exactly what it owes: every credit, no open bounty  - 6 GEN held, 6 owed
+      [20:29:18] ANNA withdraw()  0xe2e2367e1dd1658ff092ba4205c958d248df5969f638ac4cbd7135fd80e0aaeb  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+FAIL  ANNA withdraws its 1.5 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+      [20:29:58] BEN withdraw()  0x0013255ec7b915bab667688ec9f959da87b40dc0082c78de840df24ee41b051b  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+FAIL  BEN withdraws its 1 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+      [20:30:43] CARA withdraw()  0xe16ed83e7753ce76c78c67061cb17718fa1b60af2fffa3196be682f28c7ceb55  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+PASS  CARA withdraws its 1.6 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+      [20:32:17] DESK withdraw()  0x344157bf2967c7e80c319707e238f411be879213fb50a4fb8a2d16fef408e1e0  FINALIZED FINISHED_WITH_RETURN  3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+PASS  DESK withdraws its 0.9 GEN of credit  - 3 agree, 0 disagree, 2 idle  fee 0.000126305500000823
+      [20:33:09] STRANGER withdraw()  0x14c91620e5ec7f9a56d7e0254e5aaeccb7128629d8f7e8817532e654c9758c21  FINALIZED FINISHED_WITH_ERROR  3 agree, 0 disagree, 2 idle  fee 0.000078628000000823
+PASS  STRANGER withdraws with no credit: refused  - 3 agree, 0 disagree, 2 idle  [EXPECTED] this address holds no credit
+PASS  the contract ends holding nothing and owing nothing  - 0 held, 0 owed
+PASS  the money table: DESK -3.1 GEN, ANNA +1.5, BEN +1, CARA +0.6, STRANGER 0, each less only the fees its own transactions were charged  - DESK -3.1 (fees 0.000567635500004938)  ANNA 1.5 (fees 0.000447407500004115)  BEN 1 (fees 0.000365613750003527)  CARA 0.6 (fees 0.000607884750005761)  STRANGER 0 (fees 0.000393143000004585)
+
+36 passed, 2 failed
+Corroborate: 0x3De963CF5B3F0172a60010279BeAd90441d104E5  https://explorer-studio.genlayer.com/address/0x3De963CF5B3F0172a60010279BeAd90441d104E5
+transactions: 27 in 27 steps; sent a second time: none
+k2County     0x582c0b344b3eeaacca7c6488425ad3388520fa0493f5d9b001348fb65b47f4f7 3 agree, 0 disagree, 2 idle  accepted S-  fp 5b82318b5c39e90f
+k1County     0xaa0f7c81f47a78d1721116b9aae01563d327807d894946109f9ccc9efde81989 3 agree, 0 disagree, 2 idle  accepted S-  fp 5b82318b5c39e90f
+k1Courier    0xc7c15588ae10e5d2b47002bc2d77c32e4f78ca4a67662dfe582974efacf07981 3 agree, 2 disagree, 0 idle  accepted SI  fp 775152bb5b9e2939
+k1Digest     0x0a4ee762d8c08c64b5c2366dafe91d695857d4383563280f48b2927a2bcaf0db 3 agree, 1 disagree, 1 idle  derivative SD  fp 01ee1b53428bb33d
+k1Parish     0x03a9114858e5540e047069c90351013097d57758deac1edbd4916798fcee696b 3 agree, 1 disagree, 1 idle  not_supporting NI  fp 61c2bb99dabd11b7
+k1Walkers    0xacfdb1cf71aeda3a6b1d9033d71aad99805a8ab16c7f4f06073897cdea7f33c3 3 agree, 0 disagree, 2 idle  contradicting CI  fp b41ff6de147d8a39
+k1Rowing     0xcbafd2a55884c63810b376c9454b24beec89fbab53895ee6fa967917e6f0bd82 3 agree, 0 disagree, 2 idle  accepted SI  fp c8185bc1dcca3892
+record: corroborate-smoke-state-record.json (next to the state file; it carries no key)

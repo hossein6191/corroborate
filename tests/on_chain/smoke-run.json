@@ -1,0 +1,1347 @@
+{
+ "steps": {
+  "deploy": {
+   "id": "deploy",
+   "who": "desk",
+   "fn": "deploy corroborate.py",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x5ce4ab6d29fe13bb05bd11a8b24b8518673e3de0b2133d0806660b81574622b9",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "",
+     "moved": "0",
+     "fee": "79126000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:45:48"
+    }
+   ],
+   "before": "6000000000000000000",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "address": "0x3De963CF5B3F0172a60010279BeAd90441d104E5",
+   "done": true
+  },
+  "openLow": {
+   "id": "openLow",
+   "who": "desk",
+   "fn": "open_claim",
+   "args": [
+    "The Marrow Creek footbridge in Fenwick closed to the public on 3 March 2026 after an inspection found cracked supports",
+    "3",
+    "200000000000000000",
+    "14400",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/"
+   ],
+   "value": "10000000000000000",
+   "tries": [
+    {
+     "tx": "0x8c67cd6f69b124a81e04767ebe8010bc0d370a964c60e9865149edf9ed8bd74f",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": false, \"reason\": \"the bounty, sent with the call, is at most 100000000000000000000 atto and at least 10000000000000000 atto for each of the k shares; this call sent 10000000000000000\", \"returned\": \"10000000000000000\"}",
+     "moved": "0",
+     "fee": "126304750000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:46:28"
+    }
+   ],
+   "before": "5999920873999999177",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "openK1": {
+   "id": "openK1",
+   "who": "desk",
+   "fn": "open_claim",
+   "args": [
+    "The Marrow Creek footbridge in Fenwick closed to the public on 3 March 2026 after an inspection found cracked supports",
+    "3",
+    "200000000000000000",
+    "14400",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/"
+   ],
+   "value": "3000000000000000000",
+   "tries": [
+    {
+     "tx": "0xe5b03b03e739ba3804df2ae7d854c0ace2239a55fd5903a5bc9161f86792b567",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K1\", \"k\": 3, \"bond\": \"200000000000000000\", \"bounty\": \"3000000000000000000\", \"share\": \"1000000000000000000\", \"deadline\": 1795650391, \"source_prefix\": \"https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/\"}",
+     "moved": "-3000000000000000000",
+     "fee": "78636000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:47:07"
+    }
+   ],
+   "before": "5999794569249998354",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "openK2": {
+   "id": "openK2",
+   "who": "desk",
+   "fn": "open_claim",
+   "args": [
+    "An inspection of the Marrow Creek footbridge on 2 March 2026 found cracked supports",
+    "2",
+    "200000000000000000",
+    "2400",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/"
+   ],
+   "value": "1000000000000000000",
+   "tries": [
+    {
+     "tx": "0x92bc562fb4b487ac6d176fbfb4ee64c3b0ac9b1e6d83aa5ea2569e54fc45032b",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K2\", \"k\": 2, \"bond\": \"200000000000000000\", \"bounty\": \"1000000000000000000\", \"share\": \"500000000000000000\", \"deadline\": 1795638429, \"source_prefix\": \"https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/\"}",
+     "moved": "-1000000000000000000",
+     "fee": "78635250000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:47:49"
+    }
+   ],
+   "before": "2999715933249997531",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "deposit_anna": {
+   "id": "deposit_anna",
+   "who": "anna",
+   "fn": "deposit",
+   "args": [],
+   "value": "500000000000000000",
+   "tries": [
+    {
+     "tx": "0x8cfe264fb84ca0cee3b4c1720745863849f4d074cc9c5931c5418abfef37e876",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0x9a1303d22e5e4f39c28332af5a1965bec19b480f\", \"added\": \"500000000000000000\", \"credit\": \"500000000000000000\"}",
+     "moved": "-500000000000000000",
+     "fee": "78630000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:48:27"
+    }
+   ],
+   "before": "2000000000000000000",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "deposit_ben": {
+   "id": "deposit_ben",
+   "who": "ben",
+   "fn": "deposit",
+   "args": [],
+   "value": "500000000000000000",
+   "tries": [
+    {
+     "tx": "0x50106184615144fdf59d2b0bca5e3550e712e3e103ba4ba34f94abf0ac580386",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0x944995ddd8b8fd832b81c3845f396967eba8b0cd\", \"added\": \"500000000000000000\", \"credit\": \"500000000000000000\"}",
+     "moved": "-500000000000000000",
+     "fee": "78630000001058",
+     "fee_quote": "100000000000010352",
+     "at": "19:49:08"
+    }
+   ],
+   "before": "2000000000000000000",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "deposit_cara": {
+   "id": "deposit_cara",
+   "who": "cara",
+   "fn": "deposit",
+   "args": [],
+   "value": "1000000000000000000",
+   "tries": [
+    {
+     "tx": "0x357c2c672bdf5650e197943f8b07f97e8f2b0ff84d4064ffa110595f924dbfad",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0xae96c7b0e8ea425598d92c79cd328656741f276c\", \"added\": \"1000000000000000000\", \"credit\": \"1000000000000000000\"}",
+     "moved": "-1000000000000000000",
+     "fee": "78630500000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:49:48"
+    }
+   ],
+   "before": "3000000000000000000",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k2County": {
+   "id": "k2County",
+   "who": "anna",
+   "fn": "submit",
+   "args": [
+    "K2",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x582c0b344b3eeaacca7c6488425ad3388520fa0493f5d9b001348fb65b47f4f7",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "!{\"ok\": true, \"claim\": \"K2\", \"source\": \"S1\", \"outcome\": \"accepted\", \"mask\": \"S-\", \"fp\": \"5b82318b5c39e90f\", \"copy_of\": \"\", \"slot\": 1, \"accepted\": 1, \"k\": 2, \"contested\": 0, \"status\": \"open\", \"share\": \"500000000000000000\", \"to_desk\": \"0\", \"returned\": \"0\", \"credit\": \"1000000000000000000\", \"at\": 1795636190, \"why\": \"the page states the claim in both orders and, in both orders, does not take it from an accepted source, so it counts as one more independent source: the bond stays and one share of the bounty is added to the contributor's credit\"}",
+     "moved": "0",
+     "fee": "81921500000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:50:35"
+    }
+   ],
+   "before": "1499921369999999177",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "strangerNoCredit": {
+   "id": "strangerNoCredit",
+   "who": "stranger",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x6400bfb554275b5df16fc7ea72f16090dd12f27b671fa6824567e68a8e3bceae",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] a source for K1 takes a bond of 200000000000000000 atto of credit and this address holds 0; deposit() first",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:51:17"
+    }
+   ],
+   "before": "1000000000000000000",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "deskOwn": {
+   "id": "deskOwn",
+   "who": "desk",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x66dda5cdb7e6bd417508645b0c8db82933dd0c1722fb88f9550414fe767c0292",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] the desk of K1 may not offer sources for its own claim",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:51:58"
+    }
+   ],
+   "before": "1999637297999996708",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "offRule": {
+   "id": "offRule",
+   "who": "anna",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://news.example/marrow-creek.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x2807345238b63d8166783a11cc95be1a31bf961ea666e39b4257c583aacd02b9",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] the sources of K1 are pages under https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:52:39"
+    }
+   ],
+   "before": "1499839448499998354",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1County": {
+   "id": "k1County",
+   "who": "anna",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xaa0f7c81f47a78d1721116b9aae01563d327807d894946109f9ccc9efde81989",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "\"{\"ok\": true, \"claim\": \"K1\", \"source\": \"S2\", \"outcome\": \"accepted\", \"mask\": \"S-\", \"fp\": \"5b82318b5c39e90f\", \"copy_of\": \"\", \"slot\": 1, \"accepted\": 1, \"k\": 3, \"contested\": 0, \"status\": \"open\", \"share\": \"1000000000000000000\", \"to_desk\": \"0\", \"returned\": \"0\", \"credit\": \"2000000000000000000\", \"at\": 1795636362, \"why\": \"the page states the claim in both orders and, in both orders, does not take it from an accepted source, so it counts as one more independent source: the bond stays and one share of the bounty is added to the contributor's credit\"}",
+     "moved": "0",
+     "fee": "81922500000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:53:34"
+    }
+   ],
+   "before": "1499760820499997531",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1Courier": {
+   "id": "k1Courier",
+   "who": "ben",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/valley-courier.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xc7c15588ae10e5d2b47002bc2d77c32e4f78ca4a67662dfe582974efacf07981",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 2,
+      "idle": 0
+     },
+     "applied": true,
+     "msg": "\"{\"ok\": true, \"claim\": \"K1\", \"source\": \"S3\", \"outcome\": \"accepted\", \"mask\": \"SI\", \"fp\": \"775152bb5b9e2939\", \"copy_of\": \"\", \"slot\": 2, \"accepted\": 2, \"k\": 3, \"contested\": 0, \"status\": \"open\", \"share\": \"1000000000000000000\", \"to_desk\": \"0\", \"returned\": \"0\", \"credit\": \"1500000000000000000\", \"at\": 1795636416, \"why\": \"the page states the claim in both orders and, in both orders, does not take it from an accepted source, so it counts as one more independent source: the bond stays and one share of the bounty is added to the contributor's credit\"}",
+     "moved": "0",
+     "fee": "82050250000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:54:58"
+    }
+   ],
+   "before": "1499921369999998942",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1Digest": {
+   "id": "k1Digest",
+   "who": "cara",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/river-digest.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x0a4ee762d8c08c64b5c2366dafe91d695857d4383563280f48b2927a2bcaf0db",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K1\", \"source\": \"S4\", \"outcome\": \"derivative\", \"mask\": \"SD\", \"fp\": \"01ee1b53428bb33d\", \"copy_of\": \"\", \"slot\": 0, \"accepted\": 2, \"k\": 3, \"contested\": 0, \"status\": \"open\", \"share\": \"0\", \"to_desk\": \"200000000000000000\", \"returned\": \"0\", \"credit\": \"800000000000000000\", \"at\": 1795636499, \"why\": \"the page states the claim but, in both orders, takes it from a source this claim already accepted, so it adds nothing independent: the bond went to the desk\"}",
+     "moved": "0",
+     "fee": "81298750000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:55:52"
+    }
+   ],
+   "before": "1999921369499999177",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1Parish": {
+   "id": "k1Parish",
+   "who": "cara",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/parish-newsletter.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x03a9114858e5540e047069c90351013097d57758deac1edbd4916798fcee696b",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K1\", \"source\": \"S5\", \"outcome\": \"not_supporting\", \"mask\": \"NI\", \"fp\": \"61c2bb99dabd11b7\", \"copy_of\": \"\", \"slot\": 0, \"accepted\": 2, \"k\": 3, \"contested\": 0, \"status\": \"open\", \"share\": \"0\", \"to_desk\": \"200000000000000000\", \"returned\": \"0\", \"credit\": \"600000000000000000\", \"at\": 1795636554, \"why\": \"the page, in both orders, neither states nor contradicts the claim as worded: the bond went to the desk\"}",
+     "moved": "0",
+     "fee": "80925250000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:56:48"
+    }
+   ],
+   "before": "1999840070749998354",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1Walkers": {
+   "id": "k1Walkers",
+   "who": "cara",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/towpath-walkers.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xacfdb1cf71aeda3a6b1d9033d71aad99805a8ab16c7f4f06073897cdea7f33c3",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K1\", \"source\": \"S6\", \"outcome\": \"contradicting\", \"mask\": \"CI\", \"fp\": \"b41ff6de147d8a39\", \"copy_of\": \"\", \"slot\": 0, \"accepted\": 2, \"k\": 3, \"contested\": 1, \"status\": \"open\", \"share\": \"0\", \"to_desk\": \"0\", \"returned\": \"0\", \"credit\": \"600000000000000000\", \"at\": 1795636611, \"why\": \"the page, in both orders, states something that cannot be true if the claim is: it is on the record and the claim is contested; the bond stays with the contributor and no share is paid\"}",
+     "moved": "0",
+     "fee": "80665250000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:57:58"
+    }
+   ],
+   "before": "1999759145499997531",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "readTwice": {
+   "id": "readTwice",
+   "who": "cara",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x2a7f7e437f397c3975366d01861f2a793f3ffa678c5a69c78e90c41286a5e28d",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] this address was already read for K1 as S2; a page is read once per claim",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:58:46"
+    }
+   ],
+   "before": "1999678480249996708",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "farm": {
+   "id": "farm",
+   "who": "ben",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/rowing-club.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x65f9168f3a8a7cebf82423e64185e4c675f1718a7468fb657e377451daf91e2f",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] this address already holds the accepted source S3 on K1; one accepted source per address per claim",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "19:59:28"
+    }
+   ],
+   "before": "1499839319749998119",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "expireEarly": {
+   "id": "expireEarly",
+   "who": "stranger",
+   "fn": "expire",
+   "args": [
+    "K2"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xe0c73ab9cae26e1532a7b37c9708faa3aa15c11bbfa10950d7ab8a12654e3c50",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] the window of K2 runs until 1795638429, 1658 seconds from now; sources may still be offered",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:00:11"
+    }
+   ],
+   "before": "999921371999999177",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "k1Rowing": {
+   "id": "k1Rowing",
+   "who": "cara",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/rowing-club.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xcbafd2a55884c63810b376c9454b24beec89fbab53895ee6fa967917e6f0bd82",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "\"{\"ok\": true, \"claim\": \"K1\", \"source\": \"S7\", \"outcome\": \"accepted\", \"mask\": \"SI\", \"fp\": \"c8185bc1dcca3892\", \"copy_of\": \"\", \"slot\": 3, \"accepted\": 3, \"k\": 3, \"contested\": 1, \"status\": \"corroborated\", \"share\": \"1000000000000000000\", \"to_desk\": \"0\", \"returned\": \"0\", \"credit\": \"1600000000000000000\", \"at\": 1795636813, \"why\": \"the page states the claim in both orders and, in both orders, does not take it from an accepted source, so it counts as one more independent source: the bond stays and one share of the bounty is added to the contributor's credit\"}",
+     "moved": "0",
+     "fee": "81431500000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:01:28"
+    }
+   ],
+   "before": "1999599852249995885",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "closedK1": {
+   "id": "closedK1",
+   "who": "stranger",
+   "fn": "submit",
+   "args": [
+    "K1",
+    "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/parish-newsletter.html"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x3654f90e990c44053a45696b1c59f7049e3b949d2ab30017589aafeafd6f1247",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+     },
+     "applied": true,
+     "msg": "[EXPECTED] K1 is corroborated; only an open claim takes sources",
+     "moved": "0",
+     "fee": "78628000001058",
+     "fee_quote": "100000000000010352",
+     "at": "20:02:11"
+    }
+   ],
+   "before": "999842743999998354",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "expireK2": {
+   "id": "expireK2",
+   "who": "stranger",
+   "fn": "expire",
+   "args": [
+    "K2"
+   ],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x04b6724833f02ce7091aad0c47f8b8f0f6c3aa2eb02b1d0b5fb4a59204c7ce4e",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"claim\": \"K2\", \"status\": \"expired\", \"accepted\": 1, \"k\": 2, \"contested\": 0, \"returned\": \"500000000000000000\", \"desk\": \"0x3c712becea64ee9b9f1fbcda28741fea7fcc203a\"}",
+     "moved": "0",
+     "fee": "78631000001058",
+     "fee_quote": "100000000000010352",
+     "at": "20:28:15"
+    }
+   ],
+   "before": "999764115999997296",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "withdraw_anna": {
+   "id": "withdraw_anna",
+   "who": "anna",
+   "fn": "withdraw",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xe2e2367e1dd1658ff092ba4205c958d248df5969f638ac4cbd7135fd80e0aaeb",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0x9a1303d22e5e4f39c28332af5a1965bec19b480f\", \"withdrawn\": \"2000000000000000000\", \"credit\": \"0\"}",
+     "moved": "2000000000000000000",
+     "fee": "126305500000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:29:18"
+    }
+   ],
+   "before": "1499678897999996708",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "withdraw_ben": {
+   "id": "withdraw_ben",
+   "who": "ben",
+   "fn": "withdraw",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x0013255ec7b915bab667688ec9f959da87b40dc0082c78de840df24ee41b051b",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0x944995ddd8b8fd832b81c3845f396967eba8b0cd\", \"withdrawn\": \"1500000000000000000\", \"credit\": \"0\"}",
+     "moved": "1500000000000000000",
+     "fee": "126305500000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:29:58"
+    }
+   ],
+   "before": "1499760691749997296",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "withdraw_cara": {
+   "id": "withdraw_cara",
+   "who": "cara",
+   "fn": "withdraw",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0xe16ed83e7753ce76c78c67061cb17718fa1b60af2fffa3196be682f28c7ceb55",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0xae96c7b0e8ea425598d92c79cd328656741f276c\", \"withdrawn\": \"1600000000000000000\", \"credit\": \"0\"}",
+     "moved": "1600000000000000000",
+     "fee": "126305500000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:30:43"
+    }
+   ],
+   "before": "1999518420749995062",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "withdraw_desk": {
+   "id": "withdraw_desk",
+   "who": "desk",
+   "fn": "withdraw",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x344157bf2967c7e80c319707e238f411be879213fb50a4fb8a2d16fef408e1e0",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_RETURN",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "{\"ok\": true, \"address\": \"0x3c712becea64ee9b9f1fbcda28741fea7fcc203a\", \"withdrawn\": \"900000000000000000\", \"credit\": \"0\"}",
+     "moved": "900000000000000000",
+     "fee": "126305500000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:32:17"
+    }
+   ],
+   "before": "1999558669999995885",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  },
+  "withdraw_stranger": {
+   "id": "withdraw_stranger",
+   "who": "stranger",
+   "fn": "withdraw",
+   "args": [],
+   "value": "0",
+   "tries": [
+    {
+     "tx": "0x14c91620e5ec7f9a56d7e0254e5aaeccb7128629d8f7e8817532e654c9758c21",
+     "status": "FINALIZED",
+     "result": "MAJORITY_AGREE",
+     "exec": "FINISHED_WITH_ERROR",
+     "votes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+     },
+     "applied": true,
+     "msg": "[EXPECTED] this address holds no credit",
+     "moved": "0",
+     "fee": "78628000000823",
+     "fee_quote": "100000000000010352",
+     "at": "20:33:09"
+    }
+   ],
+   "before": "999685484999996238",
+   "fee_quote": "100000000000010352",
+   "pending": null,
+   "done": true
+  }
+ },
+ "views": {
+  "claimK1": {
+   "fn": "claim",
+   "args": [
+    "K1"
+   ],
+   "at": "20:28:15",
+   "out": {
+    "claim": "K1",
+    "desk": "0x3c712becea64ee9b9f1fbcda28741fea7fcc203a",
+    "text": "The Marrow Creek footbridge in Fenwick closed to the public on 3 March 2026 after an inspection found cracked supports",
+    "k": 3,
+    "bond": "200000000000000000",
+    "bounty": "3000000000000000000",
+    "share": "1000000000000000000",
+    "source_prefix": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/",
+    "opened_at": 1795635991,
+    "deadline": 1795650391,
+    "status": "corroborated",
+    "taking_sources": false,
+    "expirable": false,
+    "accepted": 3,
+    "contested": 1,
+    "is_contested": true,
+    "derivative": 1,
+    "not_supporting": 1,
+    "unsettled": 0,
+    "copies": 0,
+    "submissions": 6,
+    "left": "0",
+    "to_desk": "400000000000000000",
+    "returned": "0",
+    "closed_at": 1795636813,
+    "now": 1795638495
+   }
+  },
+  "acceptedK1": {
+   "fn": "accepted_of",
+   "args": [
+    "K1"
+   ],
+   "at": "20:28:15",
+   "out": {
+    "claim": "K1",
+    "total": 3,
+    "rows": [
+     {
+      "source": "S2",
+      "claim": "K1",
+      "contributor": "0x9a1303d22e5e4f39c28332af5a1965bec19b480f",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html",
+      "outcome": "accepted",
+      "mask": "S-",
+      "fp": "5b82318b5c39e90f",
+      "slot": 1,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636362
+     },
+     {
+      "source": "S3",
+      "claim": "K1",
+      "contributor": "0x944995ddd8b8fd832b81c3845f396967eba8b0cd",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/valley-courier.html",
+      "outcome": "accepted",
+      "mask": "SI",
+      "fp": "775152bb5b9e2939",
+      "slot": 2,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636416
+     },
+     {
+      "source": "S7",
+      "claim": "K1",
+      "contributor": "0xae96c7b0e8ea425598d92c79cd328656741f276c",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/rowing-club.html",
+      "outcome": "accepted",
+      "mask": "SI",
+      "fp": "c8185bc1dcca3892",
+      "slot": 3,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636813
+     }
+    ]
+   }
+  },
+  "sourcesK1": {
+   "fn": "sources_of",
+   "args": [
+    "K1",
+    0,
+    20
+   ],
+   "at": "20:28:19",
+   "out": {
+    "claim": "K1",
+    "total": 6,
+    "offset": 0,
+    "limit": 20,
+    "rows": [
+     {
+      "source": "S2",
+      "claim": "K1",
+      "contributor": "0x9a1303d22e5e4f39c28332af5a1965bec19b480f",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/county-roads-notice.html",
+      "outcome": "accepted",
+      "mask": "S-",
+      "fp": "5b82318b5c39e90f",
+      "slot": 1,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636362
+     },
+     {
+      "source": "S3",
+      "claim": "K1",
+      "contributor": "0x944995ddd8b8fd832b81c3845f396967eba8b0cd",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/valley-courier.html",
+      "outcome": "accepted",
+      "mask": "SI",
+      "fp": "775152bb5b9e2939",
+      "slot": 2,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636416
+     },
+     {
+      "source": "S4",
+      "claim": "K1",
+      "contributor": "0xae96c7b0e8ea425598d92c79cd328656741f276c",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/river-digest.html",
+      "outcome": "derivative",
+      "mask": "SD",
+      "fp": "01ee1b53428bb33d",
+      "slot": 0,
+      "bond": "200000000000000000",
+      "share": "0",
+      "to_desk": "200000000000000000",
+      "at": 1795636499
+     },
+     {
+      "source": "S5",
+      "claim": "K1",
+      "contributor": "0xae96c7b0e8ea425598d92c79cd328656741f276c",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/parish-newsletter.html",
+      "outcome": "not_supporting",
+      "mask": "NI",
+      "fp": "61c2bb99dabd11b7",
+      "slot": 0,
+      "bond": "200000000000000000",
+      "share": "0",
+      "to_desk": "200000000000000000",
+      "at": 1795636554
+     },
+     {
+      "source": "S6",
+      "claim": "K1",
+      "contributor": "0xae96c7b0e8ea425598d92c79cd328656741f276c",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/towpath-walkers.html",
+      "outcome": "contradicting",
+      "mask": "CI",
+      "fp": "b41ff6de147d8a39",
+      "slot": 0,
+      "bond": "200000000000000000",
+      "share": "0",
+      "to_desk": "0",
+      "at": 1795636611
+     },
+     {
+      "source": "S7",
+      "claim": "K1",
+      "contributor": "0xae96c7b0e8ea425598d92c79cd328656741f276c",
+      "url": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/rowing-club.html",
+      "outcome": "accepted",
+      "mask": "SI",
+      "fp": "c8185bc1dcca3892",
+      "slot": 3,
+      "bond": "200000000000000000",
+      "share": "1000000000000000000",
+      "to_desk": "0",
+      "at": 1795636813
+     }
+    ]
+   }
+  },
+  "claimK2": {
+   "fn": "claim",
+   "args": [
+    "K2"
+   ],
+   "at": "20:28:22",
+   "out": {
+    "claim": "K2",
+    "desk": "0x3c712becea64ee9b9f1fbcda28741fea7fcc203a",
+    "text": "An inspection of the Marrow Creek footbridge on 2 March 2026 found cracked supports",
+    "k": 2,
+    "bond": "200000000000000000",
+    "bounty": "1000000000000000000",
+    "share": "500000000000000000",
+    "source_prefix": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/",
+    "opened_at": 1795636029,
+    "deadline": 1795638429,
+    "status": "expired",
+    "taking_sources": false,
+    "expirable": false,
+    "accepted": 1,
+    "contested": 0,
+    "is_contested": false,
+    "derivative": 0,
+    "not_supporting": 0,
+    "unsettled": 0,
+    "copies": 0,
+    "submissions": 1,
+    "left": "0",
+    "to_desk": "0",
+    "returned": "500000000000000000",
+    "closed_at": 1795638453,
+    "now": 1795638505
+   }
+  },
+  "stats": {
+   "fn": "stats",
+   "args": [],
+   "at": "20:28:26",
+   "out": {
+    "claims": 2,
+    "open": 0,
+    "corroborated": 1,
+    "expired": 1,
+    "sources": 7,
+    "accepted": 4,
+    "derivative": 1,
+    "not_supporting": 1,
+    "contradicting": 1,
+    "unsettled": 0,
+    "copies": 0,
+    "refused_payments": 1,
+    "bounties_held": "0",
+    "credit": "6000000000000000000",
+    "deposited": "2000000000000000000",
+    "withdrawn": "0",
+    "shares": "3500000000000000000",
+    "returned": "10000000000000000",
+    "balance_owed": "6000000000000000000"
+   }
+  },
+  "rules": {
+   "fn": "rules",
+   "args": [],
+   "at": "20:28:29",
+   "out": {
+    "value": "{\"mask\": \"<stance><independence>\", \"fp\": \"<16 hex>\", \"lead\": \"<the page's first 1200 characters>\"}",
+    "questions": {
+     "stance": "How does the SOURCE stand on the CLAIM as worded? Answer supports, contradicts or neither.",
+     "independence": "Does the SOURCE take what it says about the CLAIM from any ACCEPTED page? Answer independent, derivative or unclear."
+    },
+    "meanings": {
+     "stance": "supports means the SOURCE states what the CLAIM says, so that a careful reader would accept the claim from this source alone: every figure, name, date and place in the CLAIM is given by the SOURCE or follows from it without outside knowledge. contradicts means the SOURCE states something that cannot be true if the CLAIM is true. neither means anything else: the SOURCE says nothing about the claim, says only something weaker or vaguer, or the blocks do not let you decide.",
+     "independence": "derivative means the SOURCE names an ACCEPTED page, or the outlet that published it, as where its information comes from, quotes an ACCEPTED page, or repeats an ACCEPTED page's sentences. independent means it does none of these: it reports on its own account, even where it agrees with an ACCEPTED page. unclear means the blocks do not let you decide."
+    },
+    "askings": [
+     "1, CLAIM then SOURCE: How does the SOURCE stand on the CLAIM as worded? Answer supports, contradicts or neither.",
+     "2, SOURCE then CLAIM: How does the SOURCE stand on the CLAIM as worded? Answer supports, contradicts or neither.",
+     "3, CLAIM, SOURCE, then the accepted sources oldest first: Does the SOURCE take what it says about the CLAIM from any ACCEPTED page? Answer independent, derivative or unclear.",
+     "4, the accepted sources newest first, SOURCE, then CLAIM: Does the SOURCE take what it says about the CLAIM from any ACCEPTED page? Answer independent, derivative or unclear."
+    ],
+    "first_source": "with nothing accepted yet there is nothing to be derived from: askings 3 and 4 are not made and the independence letter is -",
+    "reading": "an answer counts only as one of its question's three words under \"answer\" in a JSON object, in any case and with spaces around it; anything else is unreadable",
+    "mask": {
+     "S": "supports in both orders",
+     "C": "contradicts in both orders",
+     "N": "neither in both orders",
+     "I": "independent in both orders",
+     "D": "derivative in both orders",
+     "U": "anything else, an unreadable answer included",
+     "-": "not asked: nothing accepted yet"
+    },
+    "outcomes": {
+     "accepted": "S with I or -",
+     "derivative": "S with D",
+     "not_supporting": "N",
+     "contradicting": "C",
+     "unsettled": "U, or S with U",
+     "copy": "the page text this claim already read under another address, whatever the mask"
+    },
+    "page": "fetched once by every validator itself, and the body of that one answer is what is judged: a failed fetch or a status outside 200 to 299 stores nothing and takes no credit; then the first 128000 bytes of the body read as UTF-8, every tag removed and the text after a script or style tag dropped, the whitespace of the first 32000 characters collapsed to single spaces, and the first 4000 characters of that judged; fp is the first 16 hex characters of their sha256, and an accepted page's first 1200 characters are how it is shown to every later reader",
+    "compared": "the whole value, mask, fp and lead, by exact equality; every validator fetches the page and makes every asking itself inside one consensus block, disagrees if its own rerun raises, agrees with a failed leader only to fail the same way, and never with a model failure",
+    "not_asked": "the model reads the claim and page text and nothing else: no address, no amount, no claim id, no party and no clock",
+    "once": "an address is read once per claim, whatever it read as; the same page text under another address is a copy; one address holds at most one accepted source per claim",
+    "money": {
+     "open_claim": "payable, no model: the value is the bounty, split into k shares of bounty // k",
+     "accepted": "the bond stays and one share is added to the contributor's credit",
+     "derivative": "the bond to the desk's credit",
+     "not_supporting": "the bond to the desk's credit",
+     "copy": "the bond to the desk's credit",
+     "contradicting": "nothing moves; the claim counts one more contradicting source",
+     "unsettled": "the bond divided by 10 to the desk's credit",
+     "corroborated": "at the k-th accepted source, what is left of the bounty to the desk's credit",
+     "expired": "after the window, expire() moves what is left of the bounty to the desk's credit",
+     "deposit": "anyone, to its own credit",
+     "withdraw": "anyone, all of its own credit",
+     "refusals": "a refused payable call returns everything it sent in the same transaction; every other refused call raises and took nothing",
+     "balance": "the contract holds exactly the rest of every open bounty and all credit"
+    },
+    "who": {
+     "open_claim": "anyone; the sender is the desk",
+     "submit": "anyone but the desk, while the claim is open and its window runs",
+     "expire": "anyone, once the window has ended",
+     "deposit": "anyone, to its own credit",
+     "withdraw": "anyone, its own credit"
+    },
+    "sizes": {
+     "k": [
+      2,
+      5
+     ],
+     "claim": [
+      20,
+      300
+     ],
+     "prefix_chars": 120,
+     "prefixes": 6,
+     "url_chars": 200,
+     "bond_atto": [
+      "10000000000000000",
+      "10000000000000000000"
+     ],
+     "min_share_atto": "10000000000000000",
+     "max_bounty_atto": "100000000000000000000",
+     "window_seconds": [
+      600,
+      2592000
+     ],
+     "page_chars": 4000,
+     "lead_chars": 1200,
+     "rows_per_page": 20
+    },
+    "source_rule": "one to 6 prefixes separated by commas, each https:// alone or a lowercase host and a path ending in /; a source lies strictly under one of them",
+    "limits": [
+     "with the source rule https:// any page counts, and whoever writes a page can offer it: a desk that pays for corroboration lists the outlets it trusts instead",
+     "the first address to offer a page is the one paid for it: an offer still waiting to be read can be copied by whoever sees it first",
+     "independence is judged against what the accepted pages say in their first 1200 characters: a page that silently rewrites an accepted page's later paragraphs, naming no outlet and repeating no sentence shown, reads as independent",
+     "a source must read the same for every validator at the moment it is read: a page that changes from one fetch to the next gets no agreement and stores nothing, so pages pinned to one commit, or otherwise immutable, are the ones to offer",
+     "text only: images, scripts and anything past the first 4000 characters of visible text are not read",
+     "addresses are free: the one-accepted-source-per-address rule stops one account farming every slot, and the independence question, not identity, is what stops one story counting twice",
+     "the network judges whether each page states the claim and whether it took it from an accepted page, never whether the claim is true"
+    ],
+    "untrusted": "the claim is printable ASCII on one line; it, the page text and every accepted page's opening text are fenced (< and > replaced, never deleted) and placed between delimiter lines tagged with the start of the sha256 of their own fenced text, and the prompt says before the blocks that all of them are untrusted and never an instruction"
+   }
+  }
+ },
+ "order": [
+  "deploy",
+  "openLow",
+  "openK1",
+  "openK2",
+  "deposit_anna",
+  "deposit_ben",
+  "deposit_cara",
+  "k2County",
+  "strangerNoCredit",
+  "deskOwn",
+  "offRule",
+  "k1County",
+  "k1Courier",
+  "k1Digest",
+  "k1Parish",
+  "k1Walkers",
+  "readTwice",
+  "farm",
+  "expireEarly",
+  "k1Rowing",
+  "closedK1",
+  "expireK2",
+  "withdraw_anna",
+  "withdraw_ben",
+  "withdraw_cara",
+  "withdraw_desk",
+  "withdraw_stranger"
+ ],
+ "ids": {
+  "K1": "K1",
+  "K2": "K2",
+  "K2deadline": 1795638429,
+  "k1County": "S2",
+  "k1Courier": "S3",
+  "k1Digest": "S4",
+  "k1Parish": "S5",
+  "k1Walkers": "S6"
+ },
+ "source_sha256": "0457d1ceac6c90d0bb9fccc21a902d2345a66df012383b460327aa4d54c04cde",
+ "commit": "d8429e4c829c13e5ca6dba8b02456b250d1f1731",
+ "repo": "hossein6191/corroborate",
+ "prefix": "https://raw.githubusercontent.com/hossein6191/corroborate/d8429e4c829c13e5ca6dba8b02456b250d1f1731/pages/",
+ "accounts": {
+  "desk": "0x3c712BecEA64Ee9b9f1FBCdA28741feA7Fcc203a",
+  "anna": "0x9a1303D22E5e4f39c28332Af5A1965Bec19B480F",
+  "ben": "0x944995DdD8B8Fd832B81c3845f396967eBa8B0cD",
+  "cara": "0xae96C7B0E8EA425598D92c79Cd328656741F276c",
+  "stranger": "0x5e46E06126b77aF1595c816B18E1d7AEd13072bd"
+ },
+ "funded": {
+  "desk": "6000000000000000000",
+  "anna": "2000000000000000000",
+  "ben": "2000000000000000000",
+  "cara": "3000000000000000000",
+  "stranger": "1000000000000000000"
+ },
+ "start": {
+  "desk": "6000000000000000000",
+  "anna": "2000000000000000000",
+  "ben": "2000000000000000000",
+  "cara": "3000000000000000000",
+  "stranger": "1000000000000000000"
+ },
+ "started": "2026-11-25T19:45:05.844Z",
+ "contract": "0x3De963CF5B3F0172a60010279BeAd90441d104E5",
+ "code": {
+  "address": "0x3De963CF5B3F0172a60010279BeAd90441d104E5",
+  "bytes": 63292,
+  "sha256": "0457d1ceac6c90d0bb9fccc21a902d2345a66df012383b460327aa4d54c04cde",
+  "file_bytes": 63292,
+  "file_sha256": "0457d1ceac6c90d0bb9fccc21a902d2345a66df012383b460327aa4d54c04cde",
+  "identical": true
+ },
+ "end": {
+  "desk": "2899432364499995062",
+  "anna": "3499552592499995885",
+  "ben": "2999634386249996473",
+  "cara": "3599392115249994239",
+  "stranger": "999606856999995415"
+ },
+ "ended": "2026-11-25T20:33:11.766Z",
+ "money": {
+  "desk": {
+   "moved": "-3100000000000000000",
+   "fees": "567635500004938",
+   "net": "-3100567635500004938"
+  },
+  "anna": {
+   "moved": "1500000000000000000",
+   "fees": "447407500004115",
+   "net": "1499552592499995885"
+  },
+  "ben": {
+   "moved": "1000000000000000000",
+   "fees": "365613750003527",
+   "net": "999634386249996473"
+  },
+  "cara": {
+   "moved": "600000000000000000",
+   "fees": "607884750005761",
+   "net": "599392115249994239"
+  },
+  "stranger": {
+   "moved": "0",
+   "fees": "393143000004585",
+   "net": "-393143000004585"
+  }
+ },
+ "checks": {
+  "pass": 36,
+  "fail": 2
+ }
+}
