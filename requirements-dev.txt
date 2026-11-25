@@ -1,0 +1,7 @@
+# The offline suite: `pip install -r requirements-dev.txt` then `pytest tests/ -q`: no network, no Studio.
+pytest==9.1.1
+# The linter the contract is checked with. The package is genvm-linter; the command it installs is
+# genvm-lint (`genvm-lint check contracts/corroborate.py`). 0.11.1rc2 is the first that knows the v0.4 runner.
+genvm-linter==0.11.1rc2
+# Only for the opt-in direct-mode tests in tests/direct (the real GenVM v0.4 Python SDK, one process).
+genlayer-test==0.30.0
